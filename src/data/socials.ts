@@ -10,28 +10,26 @@ export const socials: SocialLink[] = [
     name: "Github",
     icon: "/social/github.svg",
     darkIcon: "/social/github-dark.svg",
-    href: "https://github.com/CharanMunur",
+    href: "https://github.com/con-ngoi",
   },
   {
     name: "X",
     icon: "/social/x.svg",
     darkIcon: "/social/x-dark.svg",
-    href: "https://x.com/CharanMunur",
+    href: "https://x.com/ZilchCenturo",
   },
   {
     name: "Linkedin",
     icon: "/social/linkedin.svg",
     darkIcon: "/social/linkedin-dark.svg",
-    href: "https://linkedin.com/in/sai-charan-munur-614623352",
+    href: "https://www.linkedin.com/in/jeff-muriithi-736025254/",
   },
   {
     name: "Gmail",
     icon: "/social/gmail.svg",
-    href: "mailto:charanmunur@gmail.com",
+    href: "mailto:muriithij416@gmail.com",
   },
-  {
-    name: "Leetcode",
-    icon: "/social/leetcode.svg",
-    href: "https://leetcode.com/u/CharanMunur/",
-  },
+  
+    
 ];
+feat: update socials with personal links, remove leetcode
