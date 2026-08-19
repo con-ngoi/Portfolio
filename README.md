@@ -1,14 +1,16 @@
-# Portfolio
+# Jeff Mbitu — Portfolio
 
 A personal portfolio built with React and Vite that showcases projects, blogs, skills, GitHub activity, and a small visitor counter in the footer.
 
+Forked from [CharanMunur/Portfolio](https://github.com/CharanMunur/Portfolio) and customized by [Jeff Mbitu](https://github.com/con-ngoi).
+
 ## Star History
 
-<a href="https://www.star-history.com/?repos=CharanMunur%2Fportfolio&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=con-ngoi%2FPortfolio&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=CharanMunur/portfolio&type=date&theme=dark&legend=top-left&sealed_token=Pq3UnD7nBjRFV2Dp_PoHfweVpHFOPeSWdWc0O4cc8zlEwCtno-kQjsdSCur3oBxn8OOV_lnRTpw8ls4PLQEikNwsGqKwSYzr0HLUAzyJzYM_40m6nhVrLg" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=CharanMunur/portfolio&type=date&legend=top-left&sealed_token=Pq3UnD7nBjRFV2Dp_PoHfweVpHFOPeSWdWc0O4cc8zlEwCtno-kQjsdSCur3oBxn8OOV_lnRTpw8ls4PLQEikNwsGqKwSYzr0HLUAzyJzYM_40m6nhVrLg" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=CharanMunur/portfolio&type=date&legend=top-left&sealed_token=Pq3UnD7nBjRFV2Dp_PoHfweVpHFOPeSWdWc0O4cc8zlEwCtno-kQjsdSCur3oBxn8OOV_lnRTpw8ls4PLQEikNwsGqKwSYzr0HLUAzyJzYM_40m6nhVrLg" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=con-ngoi/Portfolio&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=con-ngoi/Portfolio&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=con-ngoi/Portfolio&type=date&legend=top-left" />
  </picture>
 </a>
 
@@ -91,24 +93,24 @@ The Vite dev server proxies `/api/*` to `http://localhost:3000`, which is where 
 
 - [Bun](https://bun.sh)
 - [Vercel CLI](https://vercel.com/docs/cli) — install globally once:
-  ```bash
+```bash
   npm i -g vercel
-  ```
+```
 
 ### Setup
 
 1. Install dependencies:
-   ```bash
+```bash
    bun install
-   ```
+```
 
 2. Create a `.env` file in the project root with your credentials:
-   ```env
+```env
    SUPABASE_URL=https://<your-project-ref>.supabase.co
    SUPABASE_SERVICE_ROLE_KEY=<your-service-role-key>
    # Optional: raises GitHub API rate limit from 60 to 5000 req/hour
    # GITHUB_TOKEN=<your-github-personal-access-token>
-   ```
+```
 
 ### Running locally
 
