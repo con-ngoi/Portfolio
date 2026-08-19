@@ -32,4 +32,5 @@ export const socials: SocialLink[] = [
   
     
 ];
-feat: update socials with personal links, remove leetcode
+
+fix: remove stray text causing build error.
