@@ -118,4 +118,4 @@ const Hero = () => {
   );
 };
 
-fix: remove stray content after export in Hero.tsx
+export default Hero;
