@@ -35,7 +35,7 @@ const Hero = () => {
           </div>
           <div className="flex h-full flex-col justify-center gap-2 sm:gap-3">
             <h1 className="flex items-center gap-2 text-2xl font-normal tracking-tight text-foreground sm:text-2xl md:text-3xl">
-              Charan Munur
+              Jeff Muriithi
               <span className="text-background shrink-0">
                 <BadgeCheck color="currentColor" fill="#3b82f6" size={24} />
               </span>
@@ -69,7 +69,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-base font-light leading-7 text-muted-foreground sm:text-lg sm:leading-8">
-            I build backend systems and clean interfaces with{" "}
+            I design and build clean, considered with{" "}
             <span className="inline items-center gap-2 align-middle">
               {skills.map((skill) => (
                 <span
@@ -84,8 +84,8 @@ const Hero = () => {
                 </span>
               ))}
             </span>{" "}
-            — with a keen eye for detail and responsiveness. Also exploring
-            blockchain out of curiosity.
+            — blending visual design instincts with full-stack engineering to ship
++ products that look as good as they work.
           </p>
 
           <div className="flex flex-wrap gap-3 sm:gap-4 pt-2">
@@ -119,3 +119,4 @@ const Hero = () => {
 };
 
 export default Hero;
+feat: update name and bio
