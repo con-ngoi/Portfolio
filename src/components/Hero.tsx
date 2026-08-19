@@ -118,5 +118,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
-feat: update name and bio
+fix: remove stray content after export in Hero.tsx
