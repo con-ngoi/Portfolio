@@ -32,5 +32,4 @@ export const socials: SocialLink[] = [
   
     
 ];
-
 fix: remove stray text causing build error.
